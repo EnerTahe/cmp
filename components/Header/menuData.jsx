@@ -28,12 +28,6 @@ const menuData = [
         path: "/artists/treyc",
         newTab: false,
       },
-      {
-        id: 302,
-        title: "Coming Soon",
-        path: "/artists/newbie",
-        newTab: false,
-      },
     ],
   },
   

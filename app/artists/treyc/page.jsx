@@ -1,6 +1,5 @@
 
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Image from "next/image";
 import Blog from "@/components/Blog";
 
 const AboutPage = () => {

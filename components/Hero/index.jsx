@@ -18,6 +18,7 @@ const Hero = () => {
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 Chamber Music Publishing
+                <Image src="/images/logo/Copyright.svg" alt="logo" width={30} height={30} className=" pb-10 mx-2 inline-block" />
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                 CMP, the hottest there is.
@@ -66,245 +67,52 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
-            width="450"
-            height="556"
-            viewBox="0 0 450 556"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle
-              cx="277"
-              cy="63"
-              r="225"
-              fill="url(#paint0_linear_25:217)"
-            />
-            <circle
-              cx="17.9997"
-              cy="182"
-              r="18"
-              fill="url(#paint1_radial_25:217)"
-            />
-            <circle
-              cx="76.9997"
-              cy="288"
-              r="34"
-              fill="url(#paint2_radial_25:217)"
-            />
-            <circle
-              cx="325.486"
-              cy="302.87"
-              r="180"
-              transform="rotate(-37.6852 325.486 302.87)"
-              fill="url(#paint3_linear_25:217)"
-            />
-            <circle
-              opacity="0.8"
-              cx="184.521"
-              cy="315.521"
-              r="132.862"
-              transform="rotate(114.874 184.521 315.521)"
-              stroke="url(#paint4_linear_25:217)"
-            />
-            <circle
-              opacity="0.8"
-              cx="356"
-              cy="290"
-              r="179.5"
-              transform="rotate(-30 356 290)"
-              stroke="url(#paint5_linear_25:217)"
-            />
-            <circle
-              opacity="0.8"
-              cx="191.659"
-              cy="302.659"
-              r="133.362"
-              transform="rotate(133.319 191.659 302.659)"
-              fill="url(#paint6_linear_25:217)"
-            />
-            <defs>
-              <linearGradient
-                id="paint0_linear_25:217"
-                x1="-54.5003"
-                y1="-178"
-                x2="222"
-                y2="288"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
-              </linearGradient>
-              <radialGradient
-                id="paint1_radial_25:217"
-                cx="0"
-                cy="0"
-                r="1"
-                gradientUnits="userSpaceOnUse"
-                gradientTransform="translate(17.9997 182) rotate(90) scale(18)"
-              >
-                <stop offset="0.145833" stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.08" />
-              </radialGradient>
-              <radialGradient
-                id="paint2_radial_25:217"
-                cx="0"
-                cy="0"
-                r="1"
-                gradientUnits="userSpaceOnUse"
-                gradientTransform="translate(76.9997 288) rotate(90) scale(34)"
-              >
-                <stop offset="0.145833" stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.08" />
-              </radialGradient>
-              <linearGradient
-                id="paint3_linear_25:217"
-                x1="226.775"
-                y1="-66.1548"
-                x2="292.157"
-                y2="351.421"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
-              </linearGradient>
-              <linearGradient
-                id="paint4_linear_25:217"
-                x1="184.521"
-                y1="182.159"
-                x2="184.521"
-                y2="448.882"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="white" stopOpacity="0" />
-              </linearGradient>
-              <linearGradient
-                id="paint5_linear_25:217"
-                x1="356"
-                y1="110"
-                x2="356"
-                y2="470"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="white" stopOpacity="0" />
-              </linearGradient>
-              <linearGradient
-                id="paint6_linear_25:217"
-                x1="118.524"
-                y1="29.2497"
-                x2="166.965"
-                y2="338.63"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
-              </linearGradient>
-            </defs>
-          </svg>
+        <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="340.000000pt"
+      height="340.000000pt"
+      viewBox="0 0 640.000000 640.000000"
+    >
+      <path
+        d="M2163 4395c-3-9 2-75 12-148 18-141 33-477 20-477-4 0-23 14-42 30-29 26-42 30-91 30-68 0-113-23-131-68-11-25-10-35 4-62 28-54 61-78 118-85s99 4 133 36c29 27 38 11 30-49-11-73-60-165-116-215-26-24-108-79-181-123-157-93-251-177-270-241-11-39-10-49 20-130 40-114 40-133-5-183-55-61-212-141-322-165l-32-7 25 48c34 64 34 149 1 219-42 89-112 135-204 135h-49l-22 100c-11 56-21 107-21 116 0 8 20 39 44 68 24 30 58 83 75 118 102 206 74 438-53 438-36 0-86-51-105-106-22-65-25-245-7-383l17-125-39-40c-173-180-245-350-198-467 52-130 202-218 351-206l62 4 21-101c29-135 43-274 34-311-18-65-54-45-256 139-150 136-222 189-298 218-75 28-108 23-252-38-165-70-204-75-274-40-29 15-70 42-91 61-42 38-51 42-51 21 0-17 98-92 148-113 60-25 132-13 267 45 152 65 162 67 227 48 69-20 164-87 307-217 157-144 208-181 245-177 47 5 58 36 51 143-3 50-16 144-30 210l-24 120 22 17c12 10 28 18 34 18 7 0 57 14 110 31 135 43 242 100 297 159 56 59 59 93 21 198-40 112-32 156 44 225 43 38 64 52 231 154 191 117 265 218 263 358-3 247-13 439-28 567-26 226-39 217 150 98 88-56 169-111 180-122l20-20-25 7c-32 10-97 43-185 94-80 47-125 54-125 19 1-24 78-82 170-128 78-39 168-103 182-128 18-34 18-281 0-343l-14-46-69 5c-87 6-152-16-174-58-8-16-15-36-15-45 0-29 44-62 93-69 59-9 96 9 137 69 17 25 34 45 39 45 4 0 29-14 55-32 58-38 118-111 141-173 23-60 15-169-20-285-38-121-44-247-16-320 38-101 155-216 280-276 30-14 89-33 132-42 66-14 89-14 151-4 152 26 341 148 391 254 22 46 26 71 32 198 6 154-2 265-36 503-12 81-19 151-15 154 8 9 46-10 127-63 169-110 228-102 349 49 128 159 163 140 321-168 45-88 96-180 112-205 57-87 120-140 163-140 41 0 108 47 200 141 93 95 164 147 183 134 5-3 5-21 0-42-21-90-1-418 32-519 11-37 14-38 189-89 69-20 150-49 181-65 32-16 59-26 62-24 3 3-10 63-29 132-45 169-68 328-60 415 12 131 63 226 129 242 31 8 38-10 7-20-29-9-80-76-80-105 0-32 32-85 61-100 13-7 41-10 68-7 38 4 52 12 84 47 48 55 51 103 8 149l-29 31 25 7c43 10 299-5 457-27 81-12 151-19 154-16 12 13-15 21-131 39-89 13-194 20-385 22l-263 4-39-35c-107-97-118-342-30-649 28-97 28-98-31-71-28 13-109 41-180 62-84 24-133 44-139 55-32 59-61 475-38 532 7 17 9 17 40 1 50-26 135-23 188 7 96 53 116 142 46 206-46 43-72 48-141 28-70-21-99-50-122-123-10-30-24-56-33-59-60-19-87-39-185-133-132-128-149-140-196-140-72 0-121 62-258 327-120 232-173 295-236 279-29-7-85-60-159-150-54-66-93-84-152-68-26 7-77 32-115 57-93 60-124 75-155 75h-27l6-67c3-38 15-135 26-218 11-82 21-203 21-268v-119l-45 40c-84 74-173 76-235 6-39-44-41-99-6-137 50-54 175-95 237-77 41 12 44 9 26-27-23-43-108-124-173-163-218-132-456-99-647 88-129 127-143 224-69 477 36 126 36 221-1 293-36 68-89 127-154 168l-51 33 19 62c24 77 27 300 5 353-16 37-75 81-217 160-47 26-99 59-115 72-29 25-29 25-4 18 14-3 54-23 90-44 112-65 168-90 200-90s39 15 18 42c-7 9-65 50-128 90-238 153-264 165-277 133zm-1001-667c39-44 48-140 24-243-21-85-50-149-103-224l-47-65-8 30c-4 16-13 85-19 154-12 142-2 256 30 318 31 62 85 75 123 30zm-122-698c18-85 19-105 8-109-7-2-29-21-49-41-77-81-77-224 1-313 38-42 106-75 164-78 11-1 3-5-19-11-86-20-221 27-294 104-118 122-84 274 112 501 27 32 51 56 52 55 1-2 12-50 25-108zm155-121c110-31 179-198 124-304-28-55-65-87-97-83-24 3-29 11-48 83-11 44-35 130-52 192-27 100-28 112-14 116 30 8 46 7 87-4zm-115-46c29-105 90-334 90-338 0-21-107 11-144 43-52 47-74 186-40 255 15 30 61 77 76 77 4 0 12-17 18-37z"
+        transform="matrix(.1 0 0 -.1 0 640)"
+        fill="#59469e"
+      />
+    </svg>
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
-            width="364"
-            height="201"
-            viewBox="0 0 364 201"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M5.88928 72.3303C33.6599 66.4798 101.397 64.9086 150.178 105.427C211.155 156.076 229.59 162.093 264.333 166.607C299.076 171.12 337.718 183.657 362.889 212.24"
-              stroke="url(#paint0_linear_25:218)"
-            />
-            <path
-              d="M-22.1107 72.3303C5.65989 66.4798 73.3965 64.9086 122.178 105.427C183.155 156.076 201.59 162.093 236.333 166.607C271.076 171.12 309.718 183.657 334.889 212.24"
-              stroke="url(#paint1_linear_25:218)"
-            />
-            <path
-              d="M-53.1107 72.3303C-25.3401 66.4798 42.3965 64.9086 91.1783 105.427C152.155 156.076 170.59 162.093 205.333 166.607C240.076 171.12 278.718 183.657 303.889 212.24"
-              stroke="url(#paint2_linear_25:218)"
-            />
-            <path
-              d="M-98.1618 65.0889C-68.1416 60.0601 4.73364 60.4882 56.0734 102.431C120.248 154.86 139.905 161.419 177.137 166.956C214.37 172.493 255.575 186.165 281.856 215.481"
-              stroke="url(#paint3_linear_25:218)"
-            />
-            <circle
-              opacity="0.8"
-              cx="214.505"
-              cy="60.5054"
-              r="49.7205"
-              transform="rotate(-13.421 214.505 60.5054)"
-              stroke="url(#paint4_linear_25:218)"
-            />
-            <circle cx="220" cy="63" r="43" fill="url(#paint5_radial_25:218)" />
-            <defs>
-              <linearGradient
-                id="paint0_linear_25:218"
-                x1="184.389"
-                y1="69.2405"
-                x2="184.389"
-                y2="212.24"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
-              </linearGradient>
-              <linearGradient
-                id="paint1_linear_25:218"
-                x1="156.389"
-                y1="69.2405"
-                x2="156.389"
-                y2="212.24"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
-              </linearGradient>
-              <linearGradient
-                id="paint2_linear_25:218"
-                x1="125.389"
-                y1="69.2405"
-                x2="125.389"
-                y2="212.24"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
-              </linearGradient>
-              <linearGradient
-                id="paint3_linear_25:218"
-                x1="93.8507"
-                y1="67.2674"
-                x2="89.9278"
-                y2="210.214"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
-              </linearGradient>
-              <linearGradient
-                id="paint4_linear_25:218"
-                x1="214.505"
-                y1="10.2849"
-                x2="212.684"
-                y2="99.5816"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
-              </linearGradient>
-              <radialGradient
-                id="paint5_radial_25:218"
-                cx="0"
-                cy="0"
-                r="1"
-                gradientUnits="userSpaceOnUse"
-                gradientTransform="translate(220 63) rotate(90) scale(43)"
-              >
-                <stop offset="0.145833" stopColor="white" stopOpacity="0" />
-                <stop offset="1" stopColor="white" stopOpacity="0.08" />
-              </radialGradient>
-            </defs>
-          </svg>
+        <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60mm"
+      height="70mm"
+      viewBox="0 0 210 297"
+    >
+      <defs>
+        <clipPath clipPathUnits="userSpaceOnUse">
+          <path d="M0 800h650V0H0z" />
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse">
+          <path d="M0 800h650V0H0z" />
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse">
+          <path d="M0 800h650V0H0z" />
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse">
+          <path d="M0 800h650V0H0z" />
+        </clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse">
+          <path d="M0 800h650V0H0z" />
+        </clipPath>
+        <path d="M0 -3H841.89V595.28H0z" />
+      </defs>
+      <g strokeWidth={1.24681449}>
+        <path
+          d="M93.422 68.269c2.469 8.083 11.113 11.852 11.397 19.92.24 6.79-5.352 11.906-7.19 11.906 4.794-4.234 5.672-7.351 5.672-11.906 0-4.315-5.183-8.37-9.858-8.79l-.022-.028v23.2c0 3.675-2.099 5.375-3.304 6.346-2.697 2.172-6.193 2.31-7.808.305-1.615-2.005-.49-5.115 1.959-7.564 1.54-1.539 6.193-2.31 7.807-.306.171.213.338.586.454.826l.012-33.907h.88zM53.288 65.547c-.438-3.186-4.393-4.066-7.404-1.758V48.483h-1.147v28.305c2.787-1.808 9.188-6.595 8.55-11.233zm-7.404 9.027v-9.372c.623-1.342 3.778-1.317 4.15 1.16.18 1.209.27 4.775-4.15 8.216zM65.248 48.241c-.437-3.185-4.394-4.067-7.403-1.759V31.177h-1.147v28.306c2.785-1.82 9.186-6.609 8.55-11.247zm-7.405 9.027v-9.373c.624-1.342 3.778-1.316 4.15 1.16.18 1.209.27 4.775-4.15 8.216zM138.514 78.821V44.022h-.874l-.013 34.404c-.115-.238-.282-.611-.452-.82-1.605-1.994-5.083-1.857-7.765.304-2.682 2.16-3.554 5.53-1.947 7.522 1.606 1.993 5.083 1.856 7.765-.305 1.198-.96 3.285-2.643 3.285-6.296zM189.596 116.205h-35.738v30.938c0 3.602-2.056 5.267-3.238 6.22-2.644 2.129-6.07 2.26-7.652.297-1.584-1.964-.725-5.282 1.92-7.414 2.643-2.13 6.068-2.261 7.652-.297.167.207.331.573.445.808l.013-34.626h37.463v35.01c0 3.603-2.056 5.267-3.238 6.22-2.644 2.13-6.069 2.262-7.652.298-1.583-1.964-.724-5.282 1.919-7.414 2.643-2.13 6.068-2.262 7.651-.298.168.207.332.574.446.808l.01-30.547zM63.884 172.13c.129.266.32.677.504.914 1.312 1.69 5.664 2.07 8.653-.338 2.988-2.409 3.96-6.162 2.17-8.383-1.79-2.222-5.663-2.07-8.652.337-1.337 1.076-3.662 2.96-3.662 7.034v38.672l32.21-7.14.014-42.606c.128.265.314.68.502.913 1.79 2.221 5.664 2.069 8.653-.337 2.989-2.41 3.96-6.162 2.17-8.385-1.791-2.22-5.665-2.07-8.654.338-1.336 1.077-3.661 2.96-3.661 7.034v38.44l-30.26 6.267.013-32.754zM54.805 162.355c5.243-7.86 12.185-14.138 21.895-18.64.892-.414 1.756-.866 2.652-1.23 9.396-3.806 19.847-5.2 28.79-3.898-8.696-2.542-19.74-1.81-29.458 1.968-.966.375-1.885.874-2.84 1.316-10.035 4.65-16.847 11.92-21.04 20.485z"
+          transform="matrix(1.11217 0 0 1.11217 -25.79 14.18)"
+          fill="#59469e"
+        />
+      </g>
+    </svg>
         </div>
       </section>
     </>

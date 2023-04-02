@@ -47,7 +47,7 @@ const Contact = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full mt-10">
             <div
-              className="wow fadeInUp mb-12 rounded-md bg-primary/[3%] py-11 px-8 dark:bg-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
+              className="wow fadeInUp mb-12 rounded-md bg-primary/[3%] py-11 px-8 dark:bg-darkpurple dark:!bg-opacity-20 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s
               "
             >
