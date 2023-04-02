@@ -7,15 +7,16 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px] "
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
+                className="wow fadeInUp mx-auto  text-center mb-12 rounded-md bg-primary/[3%] py-11 px-8 dark:bg-black dark:!bg-opacity-70 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
                 data-wow-delay=".2s"
               >
+                
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 Chamber Music Publishing
                 <Image src="/images/logo/Copyright.svg" alt="logo" width={30} height={30} className=" pb-10 mx-2 inline-block" />
@@ -44,7 +45,7 @@ const Hero = () => {
                   />
                 </Link>
                   <Link
-                    href="https://www.youtube.com/@xXSuppraXx"
+                    href="https://www.youtube.com/@chambermusicpublishing"
                   >
                    <Image
                     src="/images/logo/YouTube.svg"
@@ -67,7 +68,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
-        <svg
+        {/* <svg
       xmlns="http://www.w3.org/2000/svg"
       width="340.000000pt"
       height="340.000000pt"
@@ -79,6 +80,8 @@ const Hero = () => {
         fill="#59469e"
       />
     </svg>
+    
+    
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
         <svg
@@ -112,7 +115,7 @@ const Hero = () => {
           fill="#59469e"
         />
       </g>
-    </svg>
+    </svg> */}
         </div>
       </section>
     </>

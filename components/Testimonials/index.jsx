@@ -34,10 +34,10 @@ const testimonialData = [
 const Testimonials = () => {
   return (
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
-      <div className="container">
+      <div className="container wow fadeInUp mb-12 rounded-md bg-primary/[3%] py-11 px-8 dark:bg-black dark:!bg-opacity-70 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
         <SectionTitle
           title="What Our Listeners Says"
-          paragraph="Kas ma üldse panen selle sectioni v?"
+          paragraph="Here are some of the reviews from our listeners."
           center
         />
 

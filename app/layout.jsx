@@ -7,6 +7,9 @@ import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
 export default function RootLayout({ children }) {
+  const sectionStyle = {
+    backgroundImage: `url(/images/hero/clean.svg)`,
+  };
   return (
     <html suppressHydrationWarning lang="en">
       {/*
@@ -15,7 +18,7 @@ export default function RootLayout({ children }) {
       */}
       <head />
 
-      <body className="dark:bg-black">
+      <body className="dark:bg-black" style={sectionStyle}>
         <Providers>
           <Header />
           {children}
