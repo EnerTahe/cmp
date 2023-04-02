@@ -35,7 +35,7 @@ const Hero = () => {
                     className="hidden dark:block"
                   />
                   <Image
-                    src="/images/logo/Black_spotify.svg"
+                    src="/images/logo/Black_Spotify.svg"
                     alt="logo"
                     width={140}
                     height={30}
