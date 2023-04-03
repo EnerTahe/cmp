@@ -25,11 +25,11 @@ const AboutSectionOne = () => {
             <div className="w-full mt-10 px-4 lg:w-1/2 wow fadeInUp mb-12 rounded-md bg-gray !bg-opacity-70 py-11 px-8 dark:bg-black dark:!bg-opacity-70 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
               <SectionTitle
                 title="Chamber Music Publishing Group (CMP) is a global music corporation."
-                paragraph="CMP's corporate headquarters are located in Los Santos, San Andreas. The newest music company in the world, it is one of the 'Fastest growing' record labels, along with Globe Music and Shadyer Music Group."
-                mb="44px"
+                paragraph="CMP's corporate headquarters are located in Los Santos, San Andreas. The newest music company in the world, it is one of the 'Fastest growing' record labels, along with Globe Music and Grozny Records."
+                mb="16px"
               />
 
-              <div
+              {/* <div
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
@@ -41,7 +41,7 @@ const AboutSectionOne = () => {
                   </div>
 
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
