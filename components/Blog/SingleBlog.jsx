@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleBlog = ({ blog }) => {
-  const { title, image, ytlink, spotifylink, tags } = blog;
+  const { title, image, ytlink, spotifylink } = blog;
   return (
     <>
       <div
@@ -10,9 +10,6 @@ const SingleBlog = ({ blog }) => {
         data-wow-delay=".1s"
       >
         <div className="relative block h-[300px] w-full">
-          <span className="absolute top-6 right-6 z-20 inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold capitalize text-white">
-            {tags[0]}
-          </span>
           <Image src={image} alt="image" fill/>
         </div>
         <div className="pt-5 p-6 sm:p-8 md:py-8 md:px-6 lg:p-8 xl:py-8 xl:px-5 2xl:p-8">
