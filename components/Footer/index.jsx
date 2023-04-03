@@ -11,7 +11,7 @@ const Footer = () => {
         
         <div className="bg-dark/10 py-8">
           <div className="container">
-            <p className="text-center text-base text-body-color dark:text-white">
+            <p className="text-center text-base text:black dark:text-body-color dark:text-white">
             ©2023 by Chamber Music Publishing Group
             </p>
           </div>

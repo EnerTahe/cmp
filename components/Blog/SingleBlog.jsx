@@ -6,7 +6,7 @@ const SingleBlog = ({ blog }) => {
   return (
     <>
       <div
-        className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-one dark:bg-dark"
+        className="wow fadeInUp relative overflow-hidden rounded-md bg-white !bg-opacity-80 shadow-one dark:bg-dark"
         data-wow-delay=".1s"
       >
         <div className="relative block h-[300px] w-full">
