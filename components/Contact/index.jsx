@@ -55,7 +55,7 @@ const Contact = () => {
                 Want to join us? Let us know!
               </h2>
               <p className="mb-3 text-base font-medium text:black dark:text-body-color">
-                Below you can find a link, where you can insert your very own demo file of your song, we will listen to it and we'll see from there.</p>
+                Below you can find a link, where you can insert your very own demo file of your song, we will listen to it and we&apos;ll see from there.</p>
               <p className="mb-12 text-base font-medium text:black dark:text-body-color">
                 Our management team will get back to you as soon as possible.
               </p>
