@@ -45,7 +45,7 @@ const Hero = () => {
                   />
                 </Link>
                   <Link
-                    href="https://www.youtube.com/@chambermusicpublishing"
+                    href="https://www.youtube.com/@cmponit"
                   >
                    <Image
                     src="/images/logo/YouTube.svg"
